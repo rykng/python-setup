@@ -56,7 +56,7 @@ download [github desktop](https://desktop.github.com/)
 
 # 8. checkin a ReadMe.md file in your project 
 ```commandline
-cd ${project.root}
+cd playwright-demo
 touch ReadMe.md
 ```
 - Open the ReadMe.md
