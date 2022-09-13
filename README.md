@@ -4,7 +4,7 @@ how to setup python playwright project in your MacOS, but you can use to start a
 # prequisite 
 You should already have python3 install in your computer, if not, go to [python.org](https://www.python.org/) to learn more.
 
-# 1. Create your project folder
+# 1. Create your project folder. 
 ```commandline
 mkdir playwright-demo
 cd playwright-demo
@@ -44,9 +44,27 @@ playwright install
 ```
 
 # 6. test out playwright 
-go to [Add Example Test section](https://playwright.dev/python/docs/intro#add-example-test))
+go to [Add Example Test section](https://playwright.dev/python/docs/intro#add-example-test)
 ```commandline
 # run the playwright script
 pytest
 ```
+
+# 7. store your project to git
+download [github desktop](https://desktop.github.com/)
+> File > Add local repository > enter your project url and follow instruction
+
+# 8. checkin a ReadMe.md file in your project 
+```commandline
+cd ${project.root}
+touch ReadMe.md
+```
+- Open the ReadMe.md
+- Type something into ReadMe.md
+- save the file
+- go to your github desktop
+- you should see 1 change in ReadMe.md. type in the summary and description. Press "Commit to main" to save into your repository.
+- go to github.com 's project folder and see if your changes made it to your live repository.
+
+
 
