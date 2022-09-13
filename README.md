@@ -44,7 +44,7 @@ playwright install
 ```
 
 # 6. test out playwright 
-go to [Add Example Test section] ([https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro#add-example-test))
+go to [Add Example Test section](https://playwright.dev/python/docs/intro#add-example-test))
 ```commandline
 # run the playwright script
 pytest
