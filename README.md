@@ -1,5 +1,5 @@
-# python-setup
-how to setup python playwright project in your MacOS, but you can use to start a general purpose python project as well.
+# python-playwright setup
+how to setup python playwright project in your MacOS, but you can use this guide to start a general purpose python project as well. 
 
 ## Prequisite 
 You should already have python3 install in your computer, if not, go to [python.org](https://www.python.org/) to learn more.
@@ -31,7 +31,8 @@ source venv/bin/activate
 whereis python
 ```
 
-## 4. install libraries to your virtualenv
+## 4. install libraries to your virtualenv 
+- Here i am installing for playwright, pytest , yaml. But you can setup your library for your own python project.
 ```commandline
 pip install pytest-playwright
 pip install pytest-xdist
