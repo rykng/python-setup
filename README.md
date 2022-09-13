@@ -1,17 +1,17 @@
 # python-setup
 how to setup python playwright project in your MacOS, but you can use to start a general purpose python project as well.
 
-# prequisite 
+## Prequisite 
 You should already have python3 install in your computer, if not, go to [python.org](https://www.python.org/) to learn more.
 
-# 1. Create your project folder. 
+## 1. Create your project folder. 
 ```commandline
 mkdir playwright-demo
 cd playwright-demo
 pwd
 ```
 
-# 2. install virtualenv. Learn more [here](https://learnpython.com/blog/how-to-use-virtualenv-python/)
+## 2. install virtualenv. Learn more [here](https://learnpython.com/blog/how-to-use-virtualenv-python/)
 ```commandline
 # install or upgrade your pip version
 pip install --upgrade pip
@@ -21,7 +21,7 @@ pip --version
 pip install virtualenv
 ```
 
-# 3. create a virtualenv within your project
+## 3. create a virtualenv within your project
 ```commandline
 # go to your playwright-demo folder and create a virtualenv venv folder
 python3 -m venv venv
@@ -31,30 +31,30 @@ source venv/bin/activate
 whereis python
 ```
 
-# 4. install libraries to your virtualenv
+## 4. install libraries to your virtualenv
 ```commandline
 pip install pytest-playwright
 pip install pytest-xdist
 pip install pyyaml
 ```
 
-# 5. install playwright browser
+## 5. install playwright browser
 ```commandline
 playwright install
 ```
 
-# 6. test out playwright 
+## 6. test out playwright 
 go to [Add Example Test section](https://playwright.dev/python/docs/intro#add-example-test)
 ```commandline
 # run the playwright script
 pytest
 ```
 
-# 7. store your project to git
+## 7. store your project to git
 download [github desktop](https://desktop.github.com/)
 > File > Add local repository > enter your project url and follow instruction
 
-# 8. checkin a ReadMe.md file in your project 
+## 8. checkin a ReadMe.md file in your project 
 ```commandline
 cd playwright-demo
 touch ReadMe.md
