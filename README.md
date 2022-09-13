@@ -11,7 +11,7 @@ cd playwright-demo
 pwd
 ```
 
-# 2. install virtualenv
+# 2. install virtualenv. Learn more [here](https://learnpython.com/blog/how-to-use-virtualenv-python/)
 ```commandline
 # install or upgrade your pip version
 pip install --upgrade pip
