@@ -4,6 +4,9 @@ how to setup python playwright project in your MacOS, but you can use this guide
 ## Prequisite 
 You should already have python3 install in your computer, if not, go to [python.org](https://www.python.org/) to learn more.
 
+or go find your current version of python. Usually in /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+
+
 ## 1. Create your project folder. 
 ```commandline
 mkdir playwright-demo
@@ -14,17 +17,17 @@ pwd
 ## 2. install virtualenv. Learn more [here](https://learnpython.com/blog/how-to-use-virtualenv-python/)
 ```commandline
 # install or upgrade your pip version
-pip install --upgrade pip
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 -m pip install --upgrade pip
 # check your version
 pip --version
 # install virtualenv library
-pip install virtualenv
+/Library/Frameworks/Python.framework/Versions/Current/bin/pip3 install virtualenv
 ```
 
 ## 3. create a virtualenv within your project
 ```commandline
 # go to your playwright-demo folder and create a virtualenv venv folder
-python3 -m venv venv
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 -m venv venv
 # to activate your virtualenv
 source venv/bin/activate
 # to check your virtualenv is activated, whereis python will show you that you will be using python inside your venv folder
